@@ -1,3 +1,6 @@
+# 忽略配置文件
+/src/main/resources/application.yml
+/test
 
 HELP.md
 target/
