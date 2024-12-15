@@ -94,9 +94,3 @@ cos:
 # 代码沙箱配置
 codesandbox:
   type: remote
-cosKey:
-  accessKey: XXXXX
-  accessId: XXXXXXX
-# AI 配置
-ai:
-  apiKey: XXXXXXXXX
