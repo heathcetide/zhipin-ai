@@ -95,8 +95,8 @@ cos:
 codesandbox:
   type: remote
 cosKey:
-  accessKey: TApZzHxV5N5tfM2iRHIpOsTNOSVWXhs1
-  accessId: AKIDSqGfzRisywnZIuZ8hDkRJ9tgbWQEVD7C
+  accessKey: XXXXX
+  accessId: XXXXXXX
 # AI 配置
 ai:
-  apiKey: 83fb4b9faddc98a274664b5bd4141aa7.6nNum7w223OgxqV3
+  apiKey: XXXXXXXXX

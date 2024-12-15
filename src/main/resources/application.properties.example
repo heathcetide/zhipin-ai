@@ -1,5 +1,0 @@
-cos.secret-id=your-secret-id
-cos.secret-key=your-secret-key
-cos.session-token=your-session-token
-cos.bucket-name=your-bucket-name
-cos.region=your-region 
