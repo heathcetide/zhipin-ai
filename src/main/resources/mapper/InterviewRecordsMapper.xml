@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhi.pin.mapper.InterviewRecordsMapper">
+
+    <resultMap id="BaseResultMap" type="com.zhi.pin.model.entity.InterviewRecords">
+            <id property="record_id" column="record_id" jdbcType="INTEGER"/>
+            <result property="interview_id" column="interview_id" jdbcType="BIGINT"/>
+            <result property="question" column="question" jdbcType="VARCHAR"/>
+            <result property="candidate_response" column="candidate_response" jdbcType="VARCHAR"/>
+            <result property="ai_evaluation_score" column="ai_evaluation_score" jdbcType="INTEGER"/>
+            <result property="evaluation_comments" column="evaluation_comments" jdbcType="VARCHAR"/>
+            <result property="created_at" column="created_at" jdbcType="TIMESTAMP"/>
+            <result property="updated_at" column="updated_at" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        record_id,interview_id,question,
+        candidate_response,ai_evaluation_score,evaluation_comments,
+        created_at,updated_at
+    </sql>
+</mapper>

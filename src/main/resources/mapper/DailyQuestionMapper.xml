@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhi.pin.mapper.DailyQuestionMapper">
+
+    <resultMap id="BaseResultMap" type="com.zhi.pin.model.entity.DailyQuestion">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="question_id" column="question_id" jdbcType="BIGINT"/>
+            <result property="date" column="date" jdbcType="DATE"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,question_id,date
+    </sql>
+</mapper>

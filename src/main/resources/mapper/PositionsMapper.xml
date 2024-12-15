@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhi.pin.mapper.PositionsMapper">
+
+    <resultMap id="BaseResultMap" type="com.zhi.pin.model.entity.Positions">
+            <id property="position_id" column="position_id" jdbcType="BIGINT"/>
+            <result property="position_name" column="position_name" jdbcType="VARCHAR"/>
+            <result property="position_desc" column="position_desc" jdbcType="VARCHAR"/>
+            <result property="position_type" column="position_type" jdbcType="INTEGER"/>
+            <result property="created_at" column="created_at" jdbcType="TIMESTAMP"/>
+            <result property="updated_at" column="updated_at" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        position_id,position_name,position_desc,
+        position_type,created_at,updated_at
+    </sql>
+</mapper>

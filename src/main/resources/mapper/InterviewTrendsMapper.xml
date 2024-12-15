@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhi.pin.mapper.InterviewTrendsMapper">
+
+    <resultMap id="BaseResultMap" type="com.zhi.pin.model.entity.InterviewTrends">
+            <id property="trend_id" column="trend_id" jdbcType="INTEGER"/>
+            <result property="candidate_id" column="candidate_id" jdbcType="INTEGER"/>
+            <result property="trend_data" column="trend_data" jdbcType="VARCHAR"/>
+            <result property="trend_summary" column="trend_summary" jdbcType="VARCHAR"/>
+            <result property="created_at" column="created_at" jdbcType="TIMESTAMP"/>
+            <result property="updated_at" column="updated_at" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        trend_id,candidate_id,trend_data,
+        trend_summary,created_at,updated_at
+    </sql>
+</mapper>
